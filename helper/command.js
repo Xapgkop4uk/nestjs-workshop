@@ -5,7 +5,7 @@ export const getCompany =
 export const postCompany =
   'curl -X POST "http://localhost:3000/company" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"name\": \"test company\", \"isEnterprise\": true }';
 
-  export const getUser =
+export const getUser =
   'curl -X GET "http://localhost:3000/user" -H "accept: application/json"';
 
 export const postUser =
@@ -13,3 +13,6 @@ export const postUser =
 
 export const getUserWithCompany =
   'curl -X GET "http://localhost:3000/user?join=company" -H "accept: application/json"';
+
+export const getCompanyWithUsers =
+  'curl -X GET "http://localhost:3000/company?join=users" -H "accept: application/json"';

@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": false
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.format.enable": true,
+    "typescript.preferences.importModuleSpecifier": "relative"
+}
